@@ -6,9 +6,6 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-});
-
-Router.map(function() {
   this.resource('todos', { path: '/' });
 });
 
